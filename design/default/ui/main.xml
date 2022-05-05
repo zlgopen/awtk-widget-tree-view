@@ -1,0 +1,109 @@
+<window theme="main">
+  <tree_view x="0" y="0" w="48%" h="48%" item_height="25" spacing="5" auto_hide_scroll_bar="true">
+    <scroll_view name="view" x="0" y="0" w="-12" h="-12">
+      <tree_item value="true">
+        <tree_item_title text="hello" style="folder"/>
+        <tree_item_content>
+          <tree_item_title text="1.world" style="file"/>
+          <tree_item_title text="2.world" style="file"/>
+          <tree_item_title text="3.world" style="file"/>
+        </tree_item_content>
+      </tree_item>
+      
+      <tree_item>
+        <tree_item_title text="awtk" style="folder"/>
+        <tree_item_content>
+          <tree_item_title text="1.world" style="file"/>
+          <tree_item_title text="2.world" style="file"/>
+          <tree_item_title text="3.world" style="file"/>
+        </tree_item_content>
+      </tree_item>
+    </scroll_view>
+    <scroll_bar_d name="hbar" x="0" y="b" w="-12" h="12" value="0"/>
+    <scroll_bar_d name="vbar" x="right" y="0" w="12" h="-12" value="0"/>
+  </tree_view>
+  <tree_view x="50%" y="0" w="48%" h="48%" item_height="25" spacing="5" auto_hide_scroll_bar="true">
+    <scroll_view name="view" x="0" y="0" w="-12" h="-12">
+      <tree_item>
+        <tree_item_title text="awtk" style="folder"/>
+        <tree_item_content>
+          <tree_item_title text="1.world" style="file"/>
+          <tree_item_title text="2.world" style="file"/>
+          <tree_item_title text="3.world" style="file"/>
+          <tree_item>
+            <tree_item_title text="zlg" style="folder"/>
+            <tree_item_content>
+              <tree_item_title text="1.world" style="file"/>
+              <tree_item_title text="2.world" style="file"/>
+              <tree_item_title text="3.world" style="file"/>
+            </tree_item_content>
+          </tree_item>
+        </tree_item_content>
+      </tree_item>
+      <tree_item value="true">
+        <tree_item_title text="hello" style="folder"/>
+        <tree_item_content>
+          <tree_item_title text="1.world" style="file"/>
+          <tree_item_title text="2.world" style="file"/>
+          <tree_item_title text="3.world" style="file"/>
+        </tree_item_content>
+      </tree_item>
+      
+    </scroll_view>
+    <scroll_bar_d name="hbar" x="0" y="b" w="-12" h="12" value="0"/>
+    <scroll_bar_d name="vbar" x="right" y="0" w="12" h="-12" value="0"/>
+  </tree_view>
+  
+  <tree_view x="0" y="50%" w="48%" h="48%" item_height="25" spacing="5">
+    <scroll_view name="view" x="0" y="0" w="-12" h="-12">
+      <tree_item value="true">
+        <tree_item_title text="hello" style="folder"/>
+        <tree_item_content>
+          <slider value="40" w="200" />
+          <slider value="40" w="200" />
+          <slider value="40" w="200" />
+          <slider value="40" w="200" />
+        </tree_item_content>
+      </tree_item>
+      
+      <tree_item>
+        <tree_item_title text="awtk" style="folder"/>
+        <tree_item_content>
+          <slider value="40" w="100" />
+          <slider value="40" w="200" />
+          <slider value="40" w="300" />
+          <slider value="40" w="400" />
+          <slider value="40" w="500" />
+        </tree_item_content>
+      </tree_item>
+    </scroll_view>
+    <scroll_bar_d name="hbar" x="0" y="b" w="-12" h="12" value="0"/>
+    <scroll_bar_d name="vbar" x="right" y="0" w="12" h="-12" value="0"/>
+  </tree_view>
+  
+  <tree_view x="50%" y="50%" w="48%" h="48%" item_height="25" spacing="5">
+    <scroll_view name="view" x="0" y="0" w="-12" h="-12">
+      <tree_item value="true">
+        <tree_item_title text="hello" style="folder"/>
+        <tree_item_content>
+          <check_button text="1.world" w="200" />
+          <check_button text="2.world" w="200" />
+          <check_button text="2.world" w="200" />
+          <check_button text="3.world" w="200" />
+        </tree_item_content>
+      </tree_item>
+      
+      <tree_item>
+        <tree_item_title text="awtk" style="folder"/>
+        <tree_item_content>
+          <radio_button text="1.world" w="200" />
+          <radio_button text="2.world" w="200" />
+          <radio_button text="2.world" w="200" />
+          <radio_button text="3.world" w="200" />
+        </tree_item_content>
+      </tree_item>
+    </scroll_view>
+    <scroll_bar_d name="hbar" x="0" y="b" w="-12" h="12" value="0"/>
+    <scroll_bar_d name="vbar" x="right" y="0" w="12" h="-12" value="0"/>
+  </tree_view>
+</window>
