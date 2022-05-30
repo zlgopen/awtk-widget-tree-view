@@ -6,6 +6,8 @@
 
 > 树形视图由滚动视图、垂直滚动条和水平滚动条三部分组成。
 
+XML 描述如下：
+
 ```xml
   <tree_view x="0" y="0" w="48%" h="48%" item_height="25" spacing="5" auto_hide_scroll_bar="true">
     <scroll_view name="view" x="0" y="0" w="-12" h="-12">
@@ -19,6 +21,8 @@
 ## scroll_view 滚动视图
 
 > 滚动视图可以包含多个 tree\_item。
+
+XML 描述如下：
 
 ```xml
     <scroll_view name="view" x="0" y="0" w="-12" h="-12">
@@ -35,6 +39,8 @@
 ## tree\_item 树形项
 
 > 树形项包含一个 tree\_item\_title 和一个 tree\_item\_content。tree\_item\_title 用来显示自身的信息，而 tree\_item\_content 用来包含子项目。
+
+XML 描述如下：
 
 ```xml
 <tree_item_title text="hello" style="folder"/>
@@ -57,6 +63,8 @@
 * tree\_item 用于显示下一级项目。
 * tree\_item\_title 用于显示简单的叶子节点。
 * button/progress\_bar/check\_button/radio\_button/label 和 image 等基本控件用于显示叶子节点。
+
+XML 描述如下：
 
 ```xml
 <tree_item value="true">
